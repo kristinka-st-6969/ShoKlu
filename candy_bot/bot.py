@@ -9,8 +9,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 
 # Загружаем переменные окружения
 load_dotenv()
-BOT_TOKEN = '8078954502:AAGCZDIjowgqkind5Ka0ByR7Cl8-SeZbdH4'  # Вставьте ваш токен сюда
-ADMIN_GROUP_ID = '-1003718464019'
+BOT_TOKEN = os.getenv('BOT_TOKEN')  # вместо прямого указания
+ADMIN_GROUP_ID = os.getenv('ADMIN_GROUP_ID')
 
 # Проверяем наличие токена
 if not BOT_TOKEN:
