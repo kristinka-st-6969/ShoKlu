@@ -1,0 +1,8 @@
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+
+
+# load_dotenv()
+# BOT_TOKEN = '8078954502:AAGCZDIjowgqkind5Ka0ByR7Cl8-SeZbdH4'  # Вставьте ваш токен сюда
+# CHANNEL_ID = '@ShoKlu'  # Вставьте название вашего канала
+# ADMIN_GROUP_ID = '-1003718464019'
